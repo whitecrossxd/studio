@@ -1,0 +1,20 @@
+.cell{
+	height: 200px;
+    margin: 50px;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 100;
+
+	transition-duration: 0.3s;
+	transition-property: transform;
+	transition-timing-function: ease-out;
+}
+.cell:hover{
+	transform: translateY(-18px);
+}
+
+.footer{
+	position: fixed;
+	bottom: 0px;
+	color: grey;
+}
