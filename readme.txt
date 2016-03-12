@@ -1,4 +1,7 @@
 - git,https://github.com
 - nodejs https://nodejs.org/
+
 - npm install bootstrap-material-design --save
 - npm install http-server -g
+
+- http://getbootstrap.com/css/
