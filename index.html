@@ -12,6 +12,27 @@
 	</header>
 	<body>
 
+
+<form onsubmit="" action="javascript: postContactToGoogle()">
+        <fieldset>
+            <label for="name">type name *</label>
+            <input id="name" type="text" name="name">
+        </fieldset>
+        <fieldset>
+            <label for="test">type test *</label>
+            <input id="test" type="text" name="test">
+        </fieldset>
+        <div>
+            <button id="send" type="submit">
+                Submit
+            </button>
+        </div>
+    </form>
+
+<script type="text/javascript">
+
+
+</script>
 		<div class='row'>
 			<div class='col-md-6'>left</div>
 			<div class='col-md-6'>right</div>
@@ -35,8 +56,36 @@
 		</div>
 
 
-	<script type="text/javascript"
+	<script type="text/javascript">
 	$.material.init()
-	></script>
+	
+	function postContactToGoogle(){
+        var name = $('#name').val();
+        var test = $('#test').val();
+
+        $.ajax({
+            url: "https://docs.google.com/a/YOURDOMAIN.com/forms/d/19UpeEL7wNsXvcyT-qj9r_T831sMSG2QIxOXt9uyQB4o/formResponse",
+            
+            data: {"entry.1785970281" : name, "entry.1152430972" : test},
+            type: "POST",
+            dataType: "xml",
+            statusCode: {
+				0: function (){
+                    $('#name').val("");
+                    $('#test').val("");
+                    //alert('message sent');
+                    //Success Message
+                },
+                200: function (){
+                    $('#name').val("");
+                    $('#test').val("");
+                    alert('message sent');
+                    //Success Message
+                }
+            }
+        });
+
+    }
+	</script>
 	</body>
 </html>
