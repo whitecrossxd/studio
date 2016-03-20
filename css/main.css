@@ -1,0 +1,85 @@
+.cell {
+    height: 300px;
+    margin: 0px;
+    margin-top: 10%;
+    font-size: 40px;
+    text-align: center;
+    text-align: middle;
+    text-shadow: currentColor;
+    font-weight: 100;
+    color: #3f51b5;
+    transition-duration: 0.3s;
+    transition-property: transform;
+    transition-timing-function: ease-out;
+}
+.cell:hover{
+	transform: translateY(-18px);
+}
+
+.footer{
+	height: 10%;
+	position: fixed;
+	bottom: 0px;
+	color: red;
+	background: grey;
+	margin-right: -15px;
+    margin-left: -15px;
+    width: 100%;
+}
+.header{
+	height: 40px;
+	position: ;
+	top:0px;
+	color: red;
+	background: grey;
+
+
+}
+body{
+	background-color: white;
+}
+content{
+	
+}
+.parallaximg{
+	height: 500px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-image:  url(img/parallax.jpg);
+}
+@media only screen and (min-width: 992px) {
+	.parallaximg {
+	    height:;
+	}
+}
+footer{
+	
+}
+footer.page-footer {
+  margin-top: 20px;
+  padding-top: 20px;
+  background-color: #ee6e73;
+ }
+
+.parallaximg-content {
+    padding: 10px;
+    padding-top: 100px;
+    padding-bottom: 40px;
+    color: #fff;
+    font-size: 1.4em;
+    text-align: center;
+    text-shadow: 1px 2px 0 #000;
+}
+.nomargin{
+	margin:0px;
+}
+.textcenter{
+	text-align: center;
+}
+.slide{
+	max-height: 400px;
+}
+
+
+
+
