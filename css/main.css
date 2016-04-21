@@ -1,0 +1,186 @@
+nav {
+  color: #fff;
+  background-color: orange;
+  width: 100%;
+  height: 56px;
+  line-height: 56px;
+}
+nav .brand-logo {
+  position: absolute;
+  color: #fff;
+  display: inline-block;
+  font-size: 2.1rem;
+  padding-left: 20px;
+  padding-right: 20px;
+  white-space: nowrap;
+  
+}
+nav ul {
+  margin: 0;
+  right: 10%;
+}
+.rightmenu {
+    float: right !important;
+    
+  }
+
+.navbar-fixed {
+  position: relative;
+  height: 56px;
+  z-index: 998;
+}
+
+.navbar-fixed nav {
+  position: fixed;
+}
+
+@media only screen and (min-width: 601px) {
+  nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
+    height: 75px;
+    line-height: 75px;
+  }
+  .navbar-fixed {
+    height: 75px;
+  }
+}
+
+<!-- INDEX -->
+
+body {
+  background-color: #ede7f6;
+  margin: 0;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1280px;
+  width: 90%;
+}
+
+.cell {
+    max-height: 300px;
+    min-height: 285px;
+    margin: 0px;
+    margin-top: 50px;
+    font-size: 40px;
+    text-align: center;
+    vertical-align: middle;
+    text-shadow: currentColor;
+    font-weight: ;
+    font-family: ;
+    font-color: black;
+    border-radius: 5px;
+    border-width: 2px;
+    transition-duration: 1s;
+    transition-property: transform;
+    transition-timing-function: ease-out;
+}
+.cell:hover{
+	transform: translateY(-18px);
+}
+a .cell{
+  background-size: cover;
+  font-size: 35px;
+}
+
+}
+
+content{
+	
+}
+.parallaximg {
+	  height: 500px;
+    
+    background-size: cover;
+    background-image: url(img/parallax.jpg);
+}
+@media only screen and (min-width: 992px) {
+	.parallaximg {
+	    height:;
+	}
+}
+
+
+.biglink{
+  height: auto;
+  width: auto;
+}
+
+
+i.right {
+  float: right;
+  margin-left: 0px;
+}
+
+
+
+footer{
+	background-color: orange;
+  color: #fff;
+}
+footer.page-footer {
+  margin-top: 0px;
+  padding-top: 20px;
+  background-color: orange;
+ }
+
+.parallaximg-content {
+    padding: 10px;
+    padding-top: 100px;
+    padding-bottom: 40px;
+    color: #fff;
+    font-size: 1.4em;
+    text-align: center;
+    text-shadow: 1px 2px 0 #000;
+}
+.nomargin{
+	margin:0px;
+}
+.textcenter{
+	text-align: center;
+}
+.slide{
+	max-height: 440px;
+  margin-top: 30px;
+}
+.slider .indicators {
+    position: absolute;
+    text-align: center;
+    left: 0;
+    right: 0;
+    bottom: 20px;
+    margin: 0;
+    z-index: 2;
+}
+
+
+
+
+<!-- excursii -->
+.foto{
+  position: relative;
+  max-width: 540px;
+  vertical-align: middle;
+}
+.foto img {
+  position: relative;
+  display: block;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 50px;
+}
+.fotolink{
+  position: relative;
+  height: 300px;
+  vertical-align: middle;
+}
+.card-content p{
+  font-weight: bolder;
+  font-size: 1.3rem;
+}
+
+
+

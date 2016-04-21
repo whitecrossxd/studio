@@ -1,91 +1,140 @@
 <html>
 	<header>
+		
 		<meta charset="utf-8">
-		<link rel='stylesheet' href='node_modules/bootstrap-material-design/bower_components/bootstrap/dist/css/bootstrap.css' type='text/css'></link>
 
-		<link rel='stylesheet' href='node_modules/bootstrap-material-design/dist/css/bootstrap-material-design.css' type='text/css'></link>
+		<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"></link>
 
-		<link rel='stylesheet' href='main.css' type='text/css'></link>
+		<link rel='stylesheet' href='css/materialize.css' type='text/css'></link>
 
-		<script type="text/javascript" src='node_modules/bootstrap-material-design/bower_components/jquery/dist/jquery.js'></script>
-		<script type="text/javascript" src='node_modules/bootstrap-material-design/dist/js/material.js'></script>
+		<link rel='stylesheet' href='css/main.css' type='text/css'></link>
+
+		<script type="text/javascript" src='js/jquery-2.2.1.js'></script>
+		<script type="text/javascript" src='js/materialize.js'></script>
 	</header>
+	<title>ProfiGrad</title>
 	<body>
 
-
-<form onsubmit="" action="javascript: postContactToGoogle()">
-        <fieldset>
-            <label for="name">type name *</label>
-            <input id="name" type="text" name="name">
-        </fieldset>
-        <fieldset>
-            <label for="test">type test *</label>
-            <input id="test" type="text" name="test">
-        </fieldset>
-        <div>
-            <button id="send" type="submit">
-                Submit
-            </button>
-        </div>
-    </form>
-
-<script type="text/javascript">
-
-
-</script>
-		<div class='row'>
-			<div class='col-md-6'>left</div>
-			<div class='col-md-6'>right</div>
+		<div class="navbar-fixed">
+		    <nav>
+		    	<div class="container">		      
+		        <a href="index.html" class="brand-logo hoverable">ПрофиГрад</a>
+		        <ul class="rightmenu ">
+		          <li><a href="index.html">На Главную</a></li>
+		          <li><a href="#contacts">Контакты</a></li>
+		          <li><a href="help.html">Помощь</a></li>
+		        </ul>
+		    	</div>
+		    </nav>
 		</div>
 
-		<div class='row'>
-			<div class='col-md-6'>
-				<div class="well cell">
-				  <a href='ex.html'>Экскурсии</a>
-				</div>
-			</div>
-			<div class='col-md-6'>
-				<div class="well cell">
-				  <a href='forSchool.html'>Для школ</a>
-				</div>
-			</div>
+		<div id="content">
+		    <div class="parallax-container">
+      			<div class="parallaximg" style="background-image: url(img/parallax.jpg);">
+      				<div class='container'>
+      				<div class='parallaximg-content animated slow'>
+      					<h1>ПрофиГрад</h1>
+      					<h3>Город профессий</h3>
+      				</div>
+      				</div>
+      			</div>
+    		</div>
+		
+    		<div class='container'>
+    				<div class='row nomargin'>
+    					<div class='col s12 l4'>
+							<a href='project.html' class="cell  z-depth-3 waves-effect waves-block waves-light">
+								<span><h3 style="color: black; vertical-align: middle;">Проект "ПрофиГрад" (Город Профессий)</h3></span>
+							</a>
+						</div>
+						<div class='col s12 m12 l4 '>
+							<a href='excursii.html' class="cell z-depth-3 waves-effect waves-block waves-orange" style="background-image: url(img/Экскурсия.png); background-size: cover;">
+								<span><h3 class="valign" style="color: black; vertical-align: middle;">Предлагаемые экскурсии</h3></span>
+
+							</a>
+						</div>
+						<div class='col s12 l4'>
+							<a href='Forma.html' class="cell  z-depth-3 waves-effect waves-block waves-light">
+								<span><h3 style="color: black; vertical-align: middle;">Заявка на участие в проекте</h3></span>
+							</a>
+						</div>
+					</div>
+    				<div class='row nomargin textcenter'>
+						<div class='col s12 l6'>
+							<a href='forSchool.html' class="cell  z-depth-3 waves-effect waves-block waves-light">
+								<h2 style="color: black;">Информация о нас</h2>
+							</a>
+						</div>
+						<div class='col s12 l6'>
+							<a href='forSchool.html' class="cell z-depth-3 waves-effect waves-block waves-light">
+								<h2 style="color: black;">Наши мероприятия</h2>
+							</a>
+						</div>
+    				</div>
+
+    		</div>
+		
+    		<div class="slide">
+			  <div class="slider">
+			    <ul class="slides">
+			      <li>
+			        <img src="img/parallax.jpg"> <!-- random image -->
+			        <div class="caption right-align">
+			          <h3>Горьковский Автомобильный завод</h3>
+			          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+			        </div>
+			      </li>
+			      <li>
+			        <img src="img/2.jpg" alt="foto"> <!-- random image -->
+			        <div class="caption left-align">
+			          <h3>Left Aligned Caption</h3>
+			          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+			        </div>
+			      </li>
+			      <li>
+			        <img src="img/3.jpg" alt="foto"> <!-- random image -->
+			        <div class="caption right-align">
+			          <h3>Right Aligned Caption</h3>
+			          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+			        </div>
+			      </li>
+			      <li>
+			        <img src="img/4.jpg" alt="foto"> <!-- random image -->
+			        <div class="caption center-align">
+			          <h3>This is our big Tagline!</h3>
+			          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+			        </div>
+			      </li>
+			    </ul>
+			  </div>
 		</div>
-
-		<div class='footer'>
-			other footer
-		</div>
-
-
-	<script type="text/javascript">
-	$.material.init()
-	
-	function postContactToGoogle(){
-        var name = $('#name').val();
-        var test = $('#test').val();
-
-        $.ajax({
-            url: "https://docs.google.com/a/YOURDOMAIN.com/forms/d/19UpeEL7wNsXvcyT-qj9r_T831sMSG2QIxOXt9uyQB4o/formResponse",
-            
-            data: {"entry.1785970281" : name, "entry.1152430972" : test},
-            type: "POST",
-            dataType: "xml",
-            statusCode: {
-				0: function (){
-                    $('#name').val("");
-                    $('#test').val("");
-                    //alert('message sent');
-                    //Success Message
-                },
-                200: function (){
-                    $('#name').val("");
-                    $('#test').val("");
-                    alert('message sent');
-                    //Success Message
-                }
-            }
-        });
-
-    }
-	</script>
+		
+		<script type="text/javascript">
+		    $(document).ready(function(){
+      		$('.slider').slider({full_width: false});});
+      	</script>
+      	<script type="text/javascript">
+      		$(document).ready(function(){
+      		$('.parallax').parallax();
+    		});        
+      	</script>
 	</body>
+		<footer class="page-footer">
+          <div class="container">
+            <div class="row">
+              <div class="col l8 offset-l2 s12">
+                <h5 class="white-text" id="contacts">Связаться с нами</h5>
+                <p class="grey-text text-lighten-3">Email: profigrad_nn@mail.ru</p>
+                <p class="grey-text text-lighten-3">Елена тел.+79307120217</p>
+                <p class="grey-text text-lighten-3">Ольга тел.+79519107056</p>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+            © 2016 Copyright Text
+            <a class="grey-text text-lighten-4 right" href="#top">Наверх</a>
+            </div>
+          </div>
+        </footer>
 </html>
