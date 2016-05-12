@@ -63,8 +63,7 @@ body {
     margin: 0px;
     margin-top: 50px;
     font-size: 40px;
-    text-align: center;
-    vertical-align: middle;
+    text-align: center;    
     text-shadow: currentColor;
     font-weight: ;
     font-family: ;
@@ -74,6 +73,7 @@ body {
     transition-duration: 1s;
     transition-property: transform;
     transition-timing-function: ease-out;
+    background-color: white;
 }
 .cell:hover{
 	transform: translateY(-18px);
@@ -136,6 +136,9 @@ footer.page-footer {
 .nomargin{
 	margin:0px;
 }
+.nopadding {
+  padding: 0;
+}
 .textcenter{
 	text-align: center;
 }
@@ -173,14 +176,38 @@ footer.page-footer {
   padding: 50px;
 }
 .fotolink{
-  position: relative;
   height: 300px;
+  position: relative;  
+  max-width: 540px;
   vertical-align: middle;
 }
+.fotolink img {
+  position: relative;
+  display: block;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 100%;  
+  padding: 50px;
+  }
 .card-content p{
   font-weight: bolder;
   font-size: 1.3rem;
 }
+.font {
+  font-weight:;
+  font-size: 1.3rem;
+}
 
+.bgcolor {
+  background-color: orange;
+}
 
-
+td, th {
+    padding: 15px 20px;
+    display: table-cell;
+    text-align: left;
+    vertical-align: middle;
+    border-radius: 2px;
+}
