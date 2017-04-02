@@ -19,6 +19,14 @@ nav ul {
   margin: 0;
   right: 10%;
 }
+
+.main_menu_style {
+  padding: 60px 0px;
+  color: black;
+  font-weight: 100;
+  font-size: 2.92rem;
+}
+
 .rightmenu {
     float: right !important;
     
@@ -69,13 +77,6 @@ nav ul {
 body {
   background-color: #ede7f6;
   margin: 0;
-}
-
-.main_menu_style {
-  padding: 60px 0px;
-  color: black;
-  font-weight: 100;
-  font-size: 2.92rem;
 }
 
 .container {
