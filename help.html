@@ -79,8 +79,13 @@
             </div>
         </div>
     </footer>
-    <script type="text/javascript">
-		$(document).ready(function(){
-      	$('.slider').slider({full_width: false});});
+	<script type="text/javascript">
+	    $(document).ready(function(){
+      	$('.slider').slider({
+      		indicators: false,
+      		height: 350,
+        	transition: 700,
+        	interval: 3000});
+      	$('.parallax').parallax();});
     </script>
 </html>

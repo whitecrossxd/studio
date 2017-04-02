@@ -397,13 +397,23 @@
             </div>
             </a>
         </div>
-	    <div class="col s12 m6 l3">
+	    <!-- <div class="col s12 m6 l3">
 	        <a class="card">
 	            <div class="card-image fotolink">
 	              <img src="img/ya.png" style="top: 50px;">              
 	            </div>
 	            <div class="card-content">
 	              <p>Компании "Яндекс"</p>
+	            </div>
+	        </a>
+	    </div> -->
+	    <div class="col s12 m6 l3">
+	        <a class="card">
+	            <div class="card-image fotolink">
+	              <img src="img/teleca.png" style="top: 100px;">              
+	            </div>
+	            <div class="card-content">
+	              <p>ООО «Телека» – российское подразделение Teleca AB</p>
 	            </div>
 	        </a>
 	    </div>
@@ -449,23 +459,19 @@
 	            </div>
 	        </a>
 	    </div>
-	    <div class="col s12 m6 l3">
-	        <a class="card">
-	            <div class="card-image fotolink">
-	              <img src="img/teleca.png" style="top: 100px;">              
-	            </div>
-	            <div class="card-content">
-	              <p>ООО «Телека» – российское подразделение Teleca AB</p>
-	            </div>
-	        </a>
-	    </div>
+	    
         </div>
 
 		</div>
-		<script type="text/javascript">
-		    $(document).ready(function(){
-      		$('.slider').slider({full_width: false});});
-      	</script>
+	<script type="text/javascript">
+	    $(document).ready(function(){
+      	$('.slider').slider({
+      		indicators: false,
+      		height: 350,
+        	transition: 700,
+        	interval: 3000});
+      	$('.parallax').parallax();});
+    </script>
 	</body>
 		<footer class="page-footer">
           <div class="container">

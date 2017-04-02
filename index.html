@@ -5,11 +5,11 @@
 
 		<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"></link>
 
-		<link rel='stylesheet' href='css/materialize.css' type='text/css'></link>
+		<link rel='stylesheet' href='css/materialize.min.css' type='text/css'></link>
 
 		<link rel='stylesheet' href='css/main.css' type='text/css'></link>
 
-		<script type="text/javascript" src='js/jquery-2.2.1.js'></script>
+		<script type="text/javascript" src='js/jquery-2.2.1.min.js'></script>
 		<script type="text/javascript" src='js/materialize.js'></script>
 	</header>
 	<title>ПрофиГрад</title>
@@ -40,68 +40,51 @@
       			</div>
     		</div>
 		
-    		<div class='container'>
-    				<div class='row nomargin valign-wrapper' style="vertical-align: middle;">
-    					<div class='col s12 m12 l4'>
-							<a href='project.html' class="cell  z-depth-3 waves-effect waves-block waves-orange">
-								<span><h3 style="color: black; font-weight: 100;">Проект "ПрофиГрад"</br> (Город Профессий)</h3></span>
-							</a>
-						</div>
-						<div class='col s12 m12 l4 '>
-							<a href='excursii.html' class="cell z-depth-3 waves-effect waves-block waves-orange">
-								<span><h3 style="color: black; font-weight: 100;">Предлагаемые экскурсии</h3></span>
-							</a>
-						</div>
-						<div class='col s12 m12 l4'>
-							<a href='viborformi.html' class="cell  z-depth-3 waves-effect waves-block waves-orange">
-								<span><h3 style="color: black; font-weight: 100;">Заявка на участие в проекте</h3></span>
-							</a>
-						</div>
-					</div>
-    				<div class='row nomargin textcenter'>
-						<div class='col s12 m12 l6'>
-							<a href='forSchool.html' class="cell  z-depth-3 waves-effect waves-block waves-orange">
-								<h2 style="color: black; font-weight: 100;">Информация для школ</h2>
-							</a>
-						</div>
-						<div class='col s12 m12 l6'>
-							<a href='photoquest.html' class="cell z-depth-3 waves-effect waves-block waves-orange">
-								<h2 style="color: black; font-weight: 100;">Наши мероприятия</h2>
-							</a>
-						</div>
-    				</div>
+    		<div class="content_margin">
+    			<div class='container'>
+    		    	<div class='row nomargin textcenter'>
+    		    		<div class='col s12 m6 l6 xl4'>
+    						<a href='project.html' class="cell  z-depth-3 waves-effect waves-block waves-orange">
+    							<h3 class="main_menu_style">Проект "ПрофиГрад"</br> <span class=" hide-on-large">(Город Профессий)</span></h3>
+    						</a>
+    					</div>
+    					<div class='col s12 m6 l6 xl4'>
+    						<a href='excursii.html' class="cell z-depth-3 waves-effect waves-block waves-orange">
+    							<h3 class="main_menu_style">Предлагаемые экскурсии</h3>
+    						</a>
+    					</div>
+    					<div class='col s12 m6 l6 xl4'>
+    						<a href='viborformi.html' class="cell  z-depth-3 waves-effect waves-block waves-orange">
+    							<h3 class="main_menu_style">Заявка на участие в проекте</h3>
+    						</a>
+    					</div>
+    					<div class='col s12 m6 l6 xl4'>
+    						<a href='forSchool.html' class="cell  z-depth-3 waves-effect waves-block waves-orange">
+    							<h2 class="main_menu_style">Информация для школ</h2>
+    						</a>
+    					</div>
+    					<div class='col s12 m6 l6 xl4'>
+    						<a href='photoquest.html' class="cell z-depth-3 waves-effect waves-block waves-orange">
+    							<h2 class="main_menu_style">Наши мероприятия</h2>
+    						</a>
+    					</div>
+    					<div class='col s12 m6 l6 xl4'>
+    						<a href='news.html' class="cell z-depth-3 waves-effect waves-block waves-orange">
+    							<h2 class="main_menu_style">Новости</h2>
+    						</a>
+    					</div>
+    		    	</div>
+    		    </div>
     		</div>
-		
-    		<div class="slide">
-			  <div class="slider">
+			<div class="slider">
 			    <ul class="slides">
-			      <li>
-			        <img src="img/parallax.jpg"> <!-- random image -->
-			      </li>
-			      <li>
-			        <img src="img/2.jpg" alt="foto"> <!-- random image -->			        
-			      </li>
-			      <li>
-			        <img src="img/3.jpg" alt="foto"> <!-- random image -->			        
-			      </li>
-			      <li>
-			        <img src="img/4.jpg" alt="foto"> <!-- random image -->			        
-			      </li>
+			      <li><img src="img/parallax.jpg"></li>
+			      <li><img src="img/2.jpg" alt="foto"></li>
+			      <li><img src="img/3.jpg" alt="foto"></li>
+			      <li><img src="img/4.jpg" alt="foto"></li>
 			    </ul>
-			  </div>
 			</div>
-		
-		<script type="text/javascript">
-		    $(document).ready(function(){
-      		$('.slider').slider({full_width: false});});
-      	</script>
-      	<script type="text/javascript">
-      		$(document).ready(function(){
-      		$('.parallax').parallax();
-    		});        
-      	</script>
-      	
-		<script>
+      	<script>
 		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
 		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -122,6 +105,16 @@
 
 		</script>
 	</body>
+	<script type="text/javascript">
+	    $(document).ready(function(){
+      	$('.slider').slider({
+      		indicators: false,
+      		height: 350,
+        	transition: 700,
+        	interval: 3000});
+      	$('.parallax').parallax();});
+    </script>
+
 		<footer class="page-footer">
           <div class="container">
             <div class="row">
@@ -140,4 +133,5 @@
             </div>
           </div>
         </footer>
-</html>
+
+		</html>

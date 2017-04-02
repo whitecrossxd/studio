@@ -1,0 +1,2 @@
+[0402/225000.215:ERROR:exception_handler_server.cc(524)] ConnectNamedPipe: Идет закрытие канала. (0xE8)
+[0402/225021.481:ERROR:exception_handler_server.cc(524)] ConnectNamedPipe: Идет закрытие канала. (0xE8)
