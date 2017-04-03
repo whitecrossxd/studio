@@ -1,2 +1,5 @@
-[0402/225000.215:ERROR:exception_handler_server.cc(524)] ConnectNamedPipe: Идет закрытие канала. (0xE8)
-[0402/225021.481:ERROR:exception_handler_server.cc(524)] ConnectNamedPipe: Идет закрытие канала. (0xE8)
+[0403/151043.028:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files (x86)\Cansuck\settings.dat: Отказано в доступе. (0x5)
+[0403/151043.031:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: Канал был закрыт. (0x6D)
+[0403/151043.032:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files (x86)\Cansuck\settings.dat: Отказано в доступе. (0x5)
+[0403/203715.218:ERROR:exception_handler_server.cc(524)] ConnectNamedPipe: Идет закрытие канала. (0xE8)
+[0403/203820.357:ERROR:exception_handler_server.cc(524)] ConnectNamedPipe: Идет закрытие канала. (0xE8)
